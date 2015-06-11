@@ -2,4 +2,4 @@ backend_version=17.0
 eclipse.preferences.version=1
 include_dirs=include
 output_dir=ebin
-source_dirs=src/otp;src/base;src
+source_dirs=src/ConcurrentProgram;src/otp/gen_server;src/otp/socket_dist;src/otp;src/base;src

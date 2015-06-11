@@ -1,0 +1,30 @@
+%% @author IcLod
+%% @doc @todo Add description to clock.
+
+
+-module(clock).
+
+%% ====================================================================
+%% API functions
+%% ====================================================================
+-compile(export_all).
+
+start(Time, Fun) ->
+	register(clock, spawn(fun() -> tick(Time, Fun) end ) ).
+stop() ->
+	clock ! stop.
+tick(Time, Fun)	->
+	receive
+		stop ->
+			void
+	after
+			Time	->
+				Fun(),
+				tick(Time, Fun)
+	end.
+
+%% ====================================================================
+%% Internal functions
+%% ====================================================================
+
+

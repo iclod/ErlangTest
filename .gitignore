@@ -1,2 +1,4 @@
 plugin/.metadata/.plugins/*
 *.dump
+*.log
+*.beam

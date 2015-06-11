@@ -1,256 +1,456 @@
-01:07:05,660 I: (ErlangCore.java:70) : Starting CORE Thread[main,6,main]
-01:07:05,685 I: (ErlangCore.java:79) : *** starting Erlide v0.25.0.201402101644 (core=0.24.2.201402101644) *** (UTF-8) 
-01:07:05,694 I: (ErlangCore.java:86) : Started CORE
-01:07:07,253 F: (ErlangHostnameRetriever.java:40) : Test long hostname: null
-01:07:07,255 W: (ErlangHostnameRetriever.java:46) : Can't use null as long name
-01:07:08,804 F: (ErlangHostnameRetriever.java:40) : Test long hostname: IcLod-Y410P
-01:07:09,918 W: (ErlangHostnameRetriever.java:46) : Can't use IcLod-Y410P as long name
-01:07:10,488 F: (ErlangHostnameRetriever.java:40) : Test short hostname: IcLod-Y410P
-01:07:10,527 F: (HostnameUtils.java:73) : Detected:: IcLod-Y410P && null
-01:07:10,563 F: (BackendFactory.java:42) : Create ide backend
-01:07:10,569 F: (BackendFactory.java:74) : Create backend a19d9_IcLod_b26c67_erlide
-01:07:10,831 F: (ManagedErlRuntime.java:56) : START node :> [G:\tools\erl6.3/bin/erl, -sname, a19d9_IcLod_b26c67_erlide@IcLod-Y410P, -setcookie, erlide] *** G:\ErlangTest\plugin
-01:07:10,833 F: (ErlRuntime.java:411) : Runtime a19d9_IcLod_b26c67_erlide@IcLod-Y410P starting
-01:07:11,057 F: (ErlRuntime.java:273) : using cookie 'erlide...'6 (info: 'erlide')
-01:07:11,076 F: (ErlRuntime.java:278) : a19d9_IcLod_b26c67_erlide@IcLod-Y410P: waiting connection to peer...
-01:07:11,707 I: (ErlRuntime.java:346) : code server started
-01:07:11,709 F: (ErlRuntime.java:416) : Runtime a19d9_IcLod_b26c67_erlide@IcLod-Y410P running
-01:07:12,026 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_6b26e4c@IcLod-Y410P'}
-01:07:12,027 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
-01:07:12,039 F: (ModelActivator.java:24) : Started model api
-01:07:12,072 I: (ErlideUIPlugin.java:154) : Starting UI Thread[main,6,main]
-01:07:12,093 I: (ErlideUIPlugin.java:189) : Started UI
-01:12:34,329 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:12:34,337 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:12:34,346 F: (InternalBuilder.java:194) : Will compile 0 resource(s)
-01:12:34,349 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 20
-01:13:20,259 F: (InternalBuilder.java:72) : ###** Starting build full of StudyErlangOTP
-01:13:20,263 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:13:20,267 F: (InternalBuilder.java:194) : Will compile 5 resource(s)
-01:13:20,269 F: (BackendFactory.java:66) : Create build backend 17
-01:13:20,270 F: (BackendFactory.java:74) : Create backend 17_a19d9_IcLod_b8108e
-01:13:20,273 F: (ErlRuntime.java:411) : Runtime 17_a19d9_IcLod_b8108e@IcLod-Y410P starting
-01:13:20,273 F: (ManagedErlRuntime.java:56) : START node :> [G:\tools\erl6.3/bin/erl, -sname, 17_a19d9_IcLod_b8108e@IcLod-Y410P, -setcookie, erlide] *** G:\ErlangTest\plugin
-01:13:20,727 F: (ErlRuntime.java:273) : using cookie 'erlide...'6 (info: 'erlide')
-01:13:20,728 F: (ErlRuntime.java:278) : 17_a19d9_IcLod_b8108e@IcLod-Y410P: waiting connection to peer...
-01:13:21,422 I: (ErlRuntime.java:346) : code server started
-01:13:21,423 F: (ErlRuntime.java:416) : Runtime 17_a19d9_IcLod_b8108e@IcLod-Y410P running
-01:13:21,598 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_6b81240@IcLod-Y410P'}
-01:13:21,600 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
-01:13:22,647 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 2388
-01:13:51,232 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:13:51,236 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:13:51,238 F: (InternalBuilder.java:194) : Will compile 0 resource(s)
-01:13:51,238 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 6
-01:14:27,565 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:14:27,568 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:14:27,570 F: (InternalBuilder.java:194) : Will compile 0 resource(s)
-01:14:27,570 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 6
-01:14:35,560 F: (ErlParser.java:333) : unknown: {other,{{11,11,265},2},rp,[{token,atom,11,265,2,rp,u,u}]}
-01:14:36,129 F: (ErlParser.java:333) : unknown: {other,{{11,11,265},3},rpc,[{token,atom,11,265,3,rpc,u,u}]}
-01:15:25,898 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:15:25,902 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:15:25,904 F: (InternalBuilder.java:194) : Will compile 0 resource(s)
-01:15:25,904 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 6
-01:16:08,338 F: (ErlParser.java:333) : unknown: {other,{{17,17,353},1},u,[{token,dot,17,353,1,u,".",u}]}
-01:16:08,774 F: (ErlParser.java:333) : unknown: {other,{{17,17,353},1},u,[{token,'.',17,353,1,u,u,u},{token,dot,17,354,1,u,".",u}]}
-01:16:08,873 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:16:08,877 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:16:08,879 F: (InternalBuilder.java:194) : Will compile 0 resource(s)
-01:16:08,880 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 7
-01:16:24,003 F: (InternalBuilder.java:72) : ###** Starting build full of StudyErlangOTP
-01:16:24,006 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:16:24,010 F: (InternalBuilder.java:194) : Will compile 5 resource(s)
-01:16:24,255 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 252
-01:17:35,288 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:17:35,292 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:17:35,293 I: (InternalBuilder.java:344) : project configuration changed: doing full rebuild
-01:17:35,298 F: (InternalBuilder.java:194) : Will compile 6 resource(s)
-01:17:35,650 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 362
-01:17:56,899 F: (ErlParser.java:333) : unknown: {other,{{17,17,353},4},loop,[{token,atom,17,353,4,loop,u,u}]}
-01:20:45,120 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:20:45,123 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:20:45,125 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:20:45,321 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 201
-01:21:24,079 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:21:24,083 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:21:24,084 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:21:24,279 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 200
-01:21:30,155 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:21:30,159 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:21:30,160 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:21:30,363 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 208
-01:23:20,920 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:23:20,924 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:23:20,925 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:23:21,131 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 211
-01:24:35,161 F: (ErlParser.java:333) : unknown: {other,{{30,30,575},1},f,[{token,atom,30,575,1,f,u,u}]}
-01:24:37,225 F: (ErlParser.java:333) : unknown: {other,{{30,30,575},2},kk,[{token,atom,30,575,2,kk,u,u}]}
-01:24:46,350 F: (AbstractErlContentAssistProcessor.java:305) : 55 results
-01:24:47,495 F: (AbstractErlContentAssistProcessor.java:305) : 8 results
-01:24:48,070 F: (AbstractErlContentAssistProcessor.java:305) : 3 results
-01:24:58,441 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:24:58,445 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:24:58,446 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:24:58,659 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 218
-01:25:33,681 F: (ErlParser.java:333) : unknown: {other,{{32,32,606},1},u,[{token,dot,32,606,1,u,".",u}]}
-01:25:34,077 F: (ErlParser.java:333) : unknown: {other,{{32,32,606},1},u,[{token,'.',32,606,1,u,u,u},{token,dot,32,607,1,u,".",u}]}
-01:25:34,168 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:25:34,172 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:25:34,173 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:25:34,368 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 199
-01:25:36,605 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:25:36,609 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:25:36,610 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:25:36,813 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 207
-01:38:44,208 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:38:44,212 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:38:44,213 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:38:44,424 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 216
-01:40:20,452 F: (AbstractErlContentAssistProcessor.java:305) : 55 results
-01:40:21,578 F: (AbstractErlContentAssistProcessor.java:305) : 8 results
-01:40:22,084 F: (AbstractErlContentAssistProcessor.java:305) : 3 results
-01:40:22,703 F: (AbstractErlContentAssistProcessor.java:305) : 3 results
-01:42:16,260 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:42:16,264 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:42:16,265 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:42:16,479 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 219
-01:42:22,300 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:42:22,304 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:42:22,305 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:42:22,516 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 216
-01:42:24,169 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:42:24,173 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:42:24,174 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:42:24,382 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 213
-01:43:00,028 F: (ErlParser.java:333) : unknown: {other,{{13,13,309},3},'Pid',[{token,var,13,309,3,'Pid',u,u},{token,'!',13,313,1,u,u,u},{token,'{',13,315,1,u,u,u},{token,atom,13,316,4,self,u,u},{token,'(',13,320,1,u,u,u},{token,')',13,321,1,u,u,u},{token,',',13,322,1,u,u,u},{token,var,13,324,7,'Request',u,u},{token,'}',13,331,1,u,u,u},{token,',',13,332,1,u,u,u},{token,receive,14,335,7,u,u,u},{token,var,15,345,8,'Response',u,u},{token,'->',15,354,2,u,u,u},{token,atom,16,360,2,io,u,u},{token,':',16,362,1,u,u,u},{token,atom,16,363,6,format,u,u},{token,'(',16,369,1,u,u,u},{token,string,16,370,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',16,380,1,u,u,u},{token,atom,16,381,4,self,u,u},{token,'(',16,385,1,u,u,u},{token,')',16,386,1,u,u,u},{token,')',16,387,1,u,u,u},{token,',',16,388,1,u,u,u},{token,var,17,393,8,'Response',u,u},{token,end,18,403,3,u,u,u},{token,dot,18,406,1,u,".",u}]}
-01:43:02,232 F: (ErlParser.java:333) : unknown: {other,{{13,13,318},3},'Pid',[{token,var,13,318,3,'Pid',u,u},{token,'!',13,322,1,u,u,u},{token,'{',13,324,1,u,u,u},{token,atom,13,325,4,self,u,u},{token,'(',13,329,1,u,u,u},{token,')',13,330,1,u,u,u},{token,',',13,331,1,u,u,u},{token,var,13,333,7,'Request',u,u},{token,'}',13,340,1,u,u,u},{token,',',13,341,1,u,u,u},{token,receive,14,344,7,u,u,u},{token,var,15,354,8,'Response',u,u},{token,'->',15,363,2,u,u,u},{token,atom,16,369,2,io,u,u},{token,':',16,371,1,u,u,u},{token,atom,16,372,6,format,u,u},{token,'(',16,378,1,u,u,u},{token,string,16,379,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',16,389,1,u,u,u},{token,atom,16,390,4,self,u,u},{token,'(',16,394,1,u,u,u},{token,')',16,395,1,u,u,u},{token,')',16,396,1,u,u,u},{token,',',16,397,1,u,u,u},{token,var,17,402,8,'Response',u,u},{token,end,18,412,3,u,u,u},{token,dot,18,415,1,u,".",u}]}
-01:43:05,044 F: (ErlParser.java:333) : unknown: {other,{{13,13,327},3},'Pid',[{token,var,13,327,3,'Pid',u,u},{token,'!',13,331,1,u,u,u},{token,'{',13,333,1,u,u,u},{token,atom,13,334,4,self,u,u},{token,'(',13,338,1,u,u,u},{token,')',13,339,1,u,u,u},{token,',',13,340,1,u,u,u},{token,var,13,342,7,'Request',u,u},{token,'}',13,349,1,u,u,u},{token,',',13,350,1,u,u,u},{token,receive,14,353,7,u,u,u},{token,var,15,363,8,'Response',u,u},{token,'->',15,372,2,u,u,u},{token,atom,16,378,2,io,u,u},{token,':',16,380,1,u,u,u},{token,atom,16,381,6,format,u,u},{token,'(',16,387,1,u,u,u},{token,string,16,388,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',16,398,1,u,u,u},{token,atom,16,399,4,self,u,u},{token,'(',16,403,1,u,u,u},{token,')',16,404,1,u,u,u},{token,')',16,405,1,u,u,u},{token,',',16,406,1,u,u,u},{token,var,17,411,8,'Response',u,u},{token,end,18,421,3,u,u,u},{token,dot,18,424,1,u,".",u}]}
-01:43:07,563 F: (ErlParser.java:333) : unknown: {other,{{13,13,334},3},'Pid',[{token,var,13,334,3,'Pid',u,u},{token,'!',13,338,1,u,u,u},{token,'{',13,340,1,u,u,u},{token,atom,13,341,4,self,u,u},{token,'(',13,345,1,u,u,u},{token,')',13,346,1,u,u,u},{token,',',13,347,1,u,u,u},{token,var,13,349,7,'Request',u,u},{token,'}',13,356,1,u,u,u},{token,',',13,357,1,u,u,u},{token,receive,14,360,7,u,u,u},{token,var,15,370,8,'Response',u,u},{token,'->',15,379,2,u,u,u},{token,atom,16,385,2,io,u,u},{token,':',16,387,1,u,u,u},{token,atom,16,388,6,format,u,u},{token,'(',16,394,1,u,u,u},{token,string,16,395,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',16,405,1,u,u,u},{token,atom,16,406,4,self,u,u},{token,'(',16,410,1,u,u,u},{token,')',16,411,1,u,u,u},{token,')',16,412,1,u,u,u},{token,',',16,413,1,u,u,u},{token,var,17,418,8,'Response',u,u},{token,end,18,428,3,u,u,u},{token,dot,18,431,1,u,".",u}]}
-01:43:13,719 F: (ErlParser.java:333) : unknown: {other,{{14,14,338},3},'Pid',[{token,var,14,338,3,'Pid',u,u},{token,'!',14,342,1,u,u,u},{token,'{',14,344,1,u,u,u},{token,atom,14,345,4,self,u,u},{token,'(',14,349,1,u,u,u},{token,')',14,350,1,u,u,u},{token,',',14,351,1,u,u,u},{token,var,14,353,7,'Request',u,u},{token,'}',14,360,1,u,u,u},{token,',',14,361,1,u,u,u},{token,receive,15,364,7,u,u,u},{token,var,16,374,8,'Response',u,u},{token,'->',16,383,2,u,u,u},{token,atom,17,389,2,io,u,u},{token,':',17,391,1,u,u,u},{token,atom,17,392,6,format,u,u},{token,'(',17,398,1,u,u,u},{token,string,17,399,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,409,1,u,u,u},{token,atom,17,410,4,self,u,u},{token,'(',17,414,1,u,u,u},{token,')',17,415,1,u,u,u},{token,')',17,416,1,u,u,u},{token,',',17,417,1,u,u,u},{token,var,18,422,8,'Response',u,u},{token,end,19,432,3,u,u,u},{token,dot,19,435,1,u,".",u}]}
-01:43:19,751 F: (ErlParser.java:333) : unknown: {other,{{14,14,342},3},'Pid',[{token,var,14,342,3,'Pid',u,u},{token,'!',14,346,1,u,u,u},{token,'{',14,348,1,u,u,u},{token,atom,14,349,4,self,u,u},{token,'(',14,353,1,u,u,u},{token,')',14,354,1,u,u,u},{token,',',14,355,1,u,u,u},{token,var,14,357,7,'Request',u,u},{token,'}',14,364,1,u,u,u},{token,',',14,365,1,u,u,u},{token,receive,15,368,7,u,u,u},{token,var,16,378,8,'Response',u,u},{token,'->',16,387,2,u,u,u},{token,atom,17,393,2,io,u,u},{token,':',17,395,1,u,u,u},{token,atom,17,396,6,format,u,u},{token,'(',17,402,1,u,u,u},{token,string,17,403,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,413,1,u,u,u},{token,atom,17,414,4,self,u,u},{token,'(',17,418,1,u,u,u},{token,')',17,419,1,u,u,u},{token,')',17,420,1,u,u,u},{token,',',17,421,1,u,u,u},{token,var,18,426,8,'Response',u,u},{token,end,19,436,3,u,u,u},{token,dot,19,439,1,u,".",u}]}
-01:43:23,114 F: (ErlParser.java:333) : unknown: {other,{{14,14,349},3},'Pid',[{token,var,14,349,3,'Pid',u,u},{token,'!',14,353,1,u,u,u},{token,'{',14,355,1,u,u,u},{token,atom,14,356,4,self,u,u},{token,'(',14,360,1,u,u,u},{token,')',14,361,1,u,u,u},{token,',',14,362,1,u,u,u},{token,var,14,364,7,'Request',u,u},{token,'}',14,371,1,u,u,u},{token,',',14,372,1,u,u,u},{token,receive,15,375,7,u,u,u},{token,var,16,385,8,'Response',u,u},{token,'->',16,394,2,u,u,u},{token,atom,17,400,2,io,u,u},{token,':',17,402,1,u,u,u},{token,atom,17,403,6,format,u,u},{token,'(',17,409,1,u,u,u},{token,string,17,410,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,420,1,u,u,u},{token,atom,17,421,4,self,u,u},{token,'(',17,425,1,u,u,u},{token,')',17,426,1,u,u,u},{token,')',17,427,1,u,u,u},{token,',',17,428,1,u,u,u},{token,var,18,433,8,'Response',u,u},{token,end,19,443,3,u,u,u},{token,dot,19,446,1,u,".",u}]}
-01:43:23,856 F: (ErlParser.java:333) : unknown: {other,{{14,14,350},3},'Pid',[{token,var,14,350,3,'Pid',u,u},{token,'!',14,354,1,u,u,u},{token,'{',14,356,1,u,u,u},{token,atom,14,357,4,self,u,u},{token,'(',14,361,1,u,u,u},{token,')',14,362,1,u,u,u},{token,',',14,363,1,u,u,u},{token,var,14,365,7,'Request',u,u},{token,'}',14,372,1,u,u,u},{token,',',14,373,1,u,u,u},{token,receive,15,376,7,u,u,u},{token,var,16,386,8,'Response',u,u},{token,'->',16,395,2,u,u,u},{token,atom,17,401,2,io,u,u},{token,':',17,403,1,u,u,u},{token,atom,17,404,6,format,u,u},{token,'(',17,410,1,u,u,u},{token,string,17,411,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,421,1,u,u,u},{token,atom,17,422,4,self,u,u},{token,'(',17,426,1,u,u,u},{token,')',17,427,1,u,u,u},{token,')',17,428,1,u,u,u},{token,',',17,429,1,u,u,u},{token,var,18,434,8,'Response',u,u},{token,end,19,444,3,u,u,u},{token,dot,19,447,1,u,".",u}]}
-01:43:24,581 F: (ErlParser.java:333) : unknown: {other,{{14,14,351},3},'Pid',[{token,var,14,351,3,'Pid',u,u},{token,'!',14,355,1,u,u,u},{token,'{',14,357,1,u,u,u},{token,atom,14,358,4,self,u,u},{token,'(',14,362,1,u,u,u},{token,')',14,363,1,u,u,u},{token,',',14,364,1,u,u,u},{token,var,14,366,7,'Request',u,u},{token,'}',14,373,1,u,u,u},{token,',',14,374,1,u,u,u},{token,receive,15,377,7,u,u,u},{token,var,16,387,8,'Response',u,u},{token,'->',16,396,2,u,u,u},{token,atom,17,402,2,io,u,u},{token,':',17,404,1,u,u,u},{token,atom,17,405,6,format,u,u},{token,'(',17,411,1,u,u,u},{token,string,17,412,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,422,1,u,u,u},{token,atom,17,423,4,self,u,u},{token,'(',17,427,1,u,u,u},{token,')',17,428,1,u,u,u},{token,')',17,429,1,u,u,u},{token,',',17,430,1,u,u,u},{token,var,18,435,8,'Response',u,u},{token,end,19,445,3,u,u,u},{token,dot,19,448,1,u,".",u}]}
-01:43:26,335 F: (ErlParser.java:333) : unknown: {other,{{14,14,354},3},'Pid',[{token,var,14,354,3,'Pid',u,u},{token,'!',14,358,1,u,u,u},{token,'{',14,360,1,u,u,u},{token,atom,14,361,4,self,u,u},{token,'(',14,365,1,u,u,u},{token,')',14,366,1,u,u,u},{token,',',14,367,1,u,u,u},{token,var,14,369,7,'Request',u,u},{token,'}',14,376,1,u,u,u},{token,',',14,377,1,u,u,u},{token,receive,15,380,7,u,u,u},{token,var,16,390,8,'Response',u,u},{token,'->',16,399,2,u,u,u},{token,atom,17,405,2,io,u,u},{token,':',17,407,1,u,u,u},{token,atom,17,408,6,format,u,u},{token,'(',17,414,1,u,u,u},{token,string,17,415,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,425,1,u,u,u},{token,atom,17,426,4,self,u,u},{token,'(',17,430,1,u,u,u},{token,')',17,431,1,u,u,u},{token,')',17,432,1,u,u,u},{token,',',17,433,1,u,u,u},{token,var,18,438,8,'Response',u,u},{token,end,19,448,3,u,u,u},{token,dot,19,451,1,u,".",u}]}
-01:43:29,197 F: (ErlParser.java:333) : unknown: {other,{{14,14,356},3},'Pid',[{token,var,14,356,3,'Pid',u,u},{token,'!',14,360,1,u,u,u},{token,'{',14,362,1,u,u,u},{token,atom,14,363,4,self,u,u},{token,'(',14,367,1,u,u,u},{token,')',14,368,1,u,u,u},{token,',',14,369,1,u,u,u},{token,var,14,371,7,'Request',u,u},{token,'}',14,378,1,u,u,u},{token,',',14,379,1,u,u,u},{token,receive,15,382,7,u,u,u},{token,var,16,392,8,'Response',u,u},{token,'->',16,401,2,u,u,u},{token,atom,17,407,2,io,u,u},{token,':',17,409,1,u,u,u},{token,atom,17,410,6,format,u,u},{token,'(',17,416,1,u,u,u},{token,string,17,417,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,427,1,u,u,u},{token,atom,17,428,4,self,u,u},{token,'(',17,432,1,u,u,u},{token,')',17,433,1,u,u,u},{token,')',17,434,1,u,u,u},{token,',',17,435,1,u,u,u},{token,var,18,440,8,'Response',u,u},{token,end,19,450,3,u,u,u},{token,dot,19,453,1,u,".",u}]}
-01:43:30,670 F: (ErlParser.java:333) : unknown: {other,{{14,14,360},3},'Pid',[{token,var,14,360,3,'Pid',u,u},{token,'!',14,364,1,u,u,u},{token,'{',14,366,1,u,u,u},{token,atom,14,367,4,self,u,u},{token,'(',14,371,1,u,u,u},{token,')',14,372,1,u,u,u},{token,',',14,373,1,u,u,u},{token,var,14,375,7,'Request',u,u},{token,'}',14,382,1,u,u,u},{token,',',14,383,1,u,u,u},{token,receive,15,386,7,u,u,u},{token,var,16,396,8,'Response',u,u},{token,'->',16,405,2,u,u,u},{token,atom,17,411,2,io,u,u},{token,':',17,413,1,u,u,u},{token,atom,17,414,6,format,u,u},{token,'(',17,420,1,u,u,u},{token,string,17,421,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,431,1,u,u,u},{token,atom,17,432,4,self,u,u},{token,'(',17,436,1,u,u,u},{token,')',17,437,1,u,u,u},{token,')',17,438,1,u,u,u},{token,',',17,439,1,u,u,u},{token,var,18,444,8,'Response',u,u},{token,end,19,454,3,u,u,u},{token,dot,19,457,1,u,".",u}]}
-01:43:32,620 F: (ErlParser.java:333) : unknown: {other,{{14,14,364},3},'Pid',[{token,var,14,364,3,'Pid',u,u},{token,'!',14,368,1,u,u,u},{token,'{',14,370,1,u,u,u},{token,atom,14,371,4,self,u,u},{token,'(',14,375,1,u,u,u},{token,')',14,376,1,u,u,u},{token,',',14,377,1,u,u,u},{token,var,14,379,7,'Request',u,u},{token,'}',14,386,1,u,u,u},{token,',',14,387,1,u,u,u},{token,receive,15,390,7,u,u,u},{token,var,16,400,8,'Response',u,u},{token,'->',16,409,2,u,u,u},{token,atom,17,415,2,io,u,u},{token,':',17,417,1,u,u,u},{token,atom,17,418,6,format,u,u},{token,'(',17,424,1,u,u,u},{token,string,17,425,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,435,1,u,u,u},{token,atom,17,436,4,self,u,u},{token,'(',17,440,1,u,u,u},{token,')',17,441,1,u,u,u},{token,')',17,442,1,u,u,u},{token,',',17,443,1,u,u,u},{token,var,18,448,8,'Response',u,u},{token,end,19,458,3,u,u,u},{token,dot,19,461,1,u,".",u}]}
-01:43:35,040 F: (ErlParser.java:333) : unknown: {other,{{14,14,372},3},'Pid',[{token,var,14,372,3,'Pid',u,u},{token,'!',14,376,1,u,u,u},{token,'{',14,378,1,u,u,u},{token,atom,14,379,4,self,u,u},{token,'(',14,383,1,u,u,u},{token,')',14,384,1,u,u,u},{token,',',14,385,1,u,u,u},{token,var,14,387,7,'Request',u,u},{token,'}',14,394,1,u,u,u},{token,',',14,395,1,u,u,u},{token,receive,15,398,7,u,u,u},{token,var,16,408,8,'Response',u,u},{token,'->',16,417,2,u,u,u},{token,atom,17,423,2,io,u,u},{token,':',17,425,1,u,u,u},{token,atom,17,426,6,format,u,u},{token,'(',17,432,1,u,u,u},{token,string,17,433,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,443,1,u,u,u},{token,atom,17,444,4,self,u,u},{token,'(',17,448,1,u,u,u},{token,')',17,449,1,u,u,u},{token,')',17,450,1,u,u,u},{token,',',17,451,1,u,u,u},{token,var,18,456,8,'Response',u,u},{token,end,19,466,3,u,u,u},{token,dot,19,469,1,u,".",u}]}
-01:43:36,139 F: (ErlParser.java:333) : unknown: {other,{{14,14,374},3},'Pid',[{token,var,14,374,3,'Pid',u,u},{token,'!',14,378,1,u,u,u},{token,'{',14,380,1,u,u,u},{token,atom,14,381,4,self,u,u},{token,'(',14,385,1,u,u,u},{token,')',14,386,1,u,u,u},{token,',',14,387,1,u,u,u},{token,var,14,389,7,'Request',u,u},{token,'}',14,396,1,u,u,u},{token,',',14,397,1,u,u,u},{token,receive,15,400,7,u,u,u},{token,var,16,410,8,'Response',u,u},{token,'->',16,419,2,u,u,u},{token,atom,17,425,2,io,u,u},{token,':',17,427,1,u,u,u},{token,atom,17,428,6,format,u,u},{token,'(',17,434,1,u,u,u},{token,string,17,435,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,445,1,u,u,u},{token,atom,17,446,4,self,u,u},{token,'(',17,450,1,u,u,u},{token,')',17,451,1,u,u,u},{token,')',17,452,1,u,u,u},{token,',',17,453,1,u,u,u},{token,var,18,458,8,'Response',u,u},{token,end,19,468,3,u,u,u},{token,dot,19,471,1,u,".",u}]}
-01:43:37,152 F: (ErlParser.java:333) : unknown: {other,{{14,14,375},3},'Pid',[{token,var,14,375,3,'Pid',u,u},{token,'!',14,379,1,u,u,u},{token,'{',14,381,1,u,u,u},{token,atom,14,382,4,self,u,u},{token,'(',14,386,1,u,u,u},{token,')',14,387,1,u,u,u},{token,',',14,388,1,u,u,u},{token,var,14,390,7,'Request',u,u},{token,'}',14,397,1,u,u,u},{token,',',14,398,1,u,u,u},{token,receive,15,401,7,u,u,u},{token,var,16,411,8,'Response',u,u},{token,'->',16,420,2,u,u,u},{token,atom,17,426,2,io,u,u},{token,':',17,428,1,u,u,u},{token,atom,17,429,6,format,u,u},{token,'(',17,435,1,u,u,u},{token,string,17,436,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',17,446,1,u,u,u},{token,atom,17,447,4,self,u,u},{token,'(',17,451,1,u,u,u},{token,')',17,452,1,u,u,u},{token,')',17,453,1,u,u,u},{token,',',17,454,1,u,u,u},{token,var,18,459,8,'Response',u,u},{token,end,19,469,3,u,u,u},{token,dot,19,472,1,u,".",u}]}
-01:43:40,270 F: (ErlParser.java:333) : unknown: {other,{{15,15,378},3},'Pid',[{token,var,15,378,3,'Pid',u,u},{token,'!',15,382,1,u,u,u},{token,'{',15,384,1,u,u,u},{token,atom,15,385,4,self,u,u},{token,'(',15,389,1,u,u,u},{token,')',15,390,1,u,u,u},{token,',',15,391,1,u,u,u},{token,var,15,393,7,'Request',u,u},{token,'}',15,400,1,u,u,u},{token,',',15,401,1,u,u,u},{token,receive,16,404,7,u,u,u},{token,var,17,414,8,'Response',u,u},{token,'->',17,423,2,u,u,u},{token,atom,18,429,2,io,u,u},{token,':',18,431,1,u,u,u},{token,atom,18,432,6,format,u,u},{token,'(',18,438,1,u,u,u},{token,string,18,439,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',18,449,1,u,u,u},{token,atom,18,450,4,self,u,u},{token,'(',18,454,1,u,u,u},{token,')',18,455,1,u,u,u},{token,')',18,456,1,u,u,u},{token,',',18,457,1,u,u,u},{token,var,19,462,8,'Response',u,u},{token,end,20,472,3,u,u,u},{token,dot,20,475,1,u,".",u}]}
-01:43:43,804 F: (ErlParser.java:333) : unknown: {other,{{15,15,415},3},'Pid',[{token,var,15,415,3,'Pid',u,u},{token,'!',15,419,1,u,u,u},{token,'{',15,421,1,u,u,u},{token,atom,15,422,4,self,u,u},{token,'(',15,426,1,u,u,u},{token,')',15,427,1,u,u,u},{token,',',15,428,1,u,u,u},{token,var,15,430,7,'Request',u,u},{token,'}',15,437,1,u,u,u},{token,',',15,438,1,u,u,u},{token,receive,16,441,7,u,u,u},{token,var,17,451,8,'Response',u,u},{token,'->',17,460,2,u,u,u},{token,atom,18,466,2,io,u,u},{token,':',18,468,1,u,u,u},{token,atom,18,469,6,format,u,u},{token,'(',18,475,1,u,u,u},{token,string,18,476,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',18,486,1,u,u,u},{token,atom,18,487,4,self,u,u},{token,'(',18,491,1,u,u,u},{token,')',18,492,1,u,u,u},{token,')',18,493,1,u,u,u},{token,',',18,494,1,u,u,u},{token,var,19,499,8,'Response',u,u},{token,end,20,509,3,u,u,u},{token,dot,20,512,1,u,".",u}]}
-01:43:45,714 F: (ErlParser.java:333) : unknown: {other,{{15,15,416},3},'Pid',[{token,var,15,416,3,'Pid',u,u},{token,'!',15,420,1,u,u,u},{token,'{',15,422,1,u,u,u},{token,atom,15,423,4,self,u,u},{token,'(',15,427,1,u,u,u},{token,')',15,428,1,u,u,u},{token,',',15,429,1,u,u,u},{token,var,15,431,7,'Request',u,u},{token,'}',15,438,1,u,u,u},{token,',',15,439,1,u,u,u},{token,receive,16,442,7,u,u,u},{token,var,17,452,8,'Response',u,u},{token,'->',17,461,2,u,u,u},{token,atom,18,467,2,io,u,u},{token,':',18,469,1,u,u,u},{token,atom,18,470,6,format,u,u},{token,'(',18,476,1,u,u,u},{token,string,18,477,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',18,487,1,u,u,u},{token,atom,18,488,4,self,u,u},{token,'(',18,492,1,u,u,u},{token,')',18,493,1,u,u,u},{token,')',18,494,1,u,u,u},{token,',',18,495,1,u,u,u},{token,var,19,500,8,'Response',u,u},{token,end,20,510,3,u,u,u},{token,dot,20,513,1,u,".",u}]}
-01:43:53,072 F: (ErlParser.java:333) : unknown: {other,{{15,15,413},3},'Pid',[{token,var,15,413,3,'Pid',u,u},{token,'!',15,417,1,u,u,u},{token,'{',15,419,1,u,u,u},{token,atom,15,420,4,self,u,u},{token,'(',15,424,1,u,u,u},{token,')',15,425,1,u,u,u},{token,',',15,426,1,u,u,u},{token,var,15,428,7,'Request',u,u},{token,'}',15,435,1,u,u,u},{token,',',15,436,1,u,u,u},{token,receive,16,439,7,u,u,u},{token,var,17,449,8,'Response',u,u},{token,'->',17,458,2,u,u,u},{token,atom,18,464,2,io,u,u},{token,':',18,466,1,u,u,u},{token,atom,18,467,6,format,u,u},{token,'(',18,473,1,u,u,u},{token,string,18,474,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',18,484,1,u,u,u},{token,atom,18,485,4,self,u,u},{token,'(',18,489,1,u,u,u},{token,')',18,490,1,u,u,u},{token,')',18,491,1,u,u,u},{token,',',18,492,1,u,u,u},{token,var,19,497,8,'Response',u,u},{token,end,20,507,3,u,u,u},{token,dot,20,510,1,u,".",u}]}
-01:43:56,882 F: (ErlParser.java:333) : unknown: {other,{{15,15,410},3},'Pid',[{token,var,15,410,3,'Pid',u,u},{token,'!',15,414,1,u,u,u},{token,'{',15,416,1,u,u,u},{token,atom,15,417,4,self,u,u},{token,'(',15,421,1,u,u,u},{token,')',15,422,1,u,u,u},{token,',',15,423,1,u,u,u},{token,var,15,425,7,'Request',u,u},{token,'}',15,432,1,u,u,u},{token,',',15,433,1,u,u,u},{token,receive,16,436,7,u,u,u},{token,var,17,446,8,'Response',u,u},{token,'->',17,455,2,u,u,u},{token,atom,18,461,2,io,u,u},{token,':',18,463,1,u,u,u},{token,atom,18,464,6,format,u,u},{token,'(',18,470,1,u,u,u},{token,string,18,471,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',18,481,1,u,u,u},{token,atom,18,482,4,self,u,u},{token,'(',18,486,1,u,u,u},{token,')',18,487,1,u,u,u},{token,')',18,488,1,u,u,u},{token,',',18,489,1,u,u,u},{token,var,19,494,8,'Response',u,u},{token,end,20,504,3,u,u,u},{token,dot,20,507,1,u,".",u}]}
-01:43:57,909 F: (ErlParser.java:333) : unknown: {other,{{15,15,411},3},'Pid',[{token,var,15,411,3,'Pid',u,u},{token,'!',15,415,1,u,u,u},{token,'{',15,417,1,u,u,u},{token,atom,15,418,4,self,u,u},{token,'(',15,422,1,u,u,u},{token,')',15,423,1,u,u,u},{token,',',15,424,1,u,u,u},{token,var,15,426,7,'Request',u,u},{token,'}',15,433,1,u,u,u},{token,',',15,434,1,u,u,u},{token,receive,16,437,7,u,u,u},{token,var,17,447,8,'Response',u,u},{token,'->',17,456,2,u,u,u},{token,atom,18,462,2,io,u,u},{token,':',18,464,1,u,u,u},{token,atom,18,465,6,format,u,u},{token,'(',18,471,1,u,u,u},{token,string,18,472,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',18,482,1,u,u,u},{token,atom,18,483,4,self,u,u},{token,'(',18,487,1,u,u,u},{token,')',18,488,1,u,u,u},{token,')',18,489,1,u,u,u},{token,',',18,490,1,u,u,u},{token,var,19,495,8,'Response',u,u},{token,end,20,505,3,u,u,u},{token,dot,20,508,1,u,".",u}]}
-01:43:58,857 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:43:58,860 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:43:58,861 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:43:59,076 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 220
-01:45:23,233 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:45:23,237 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:45:23,238 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:45:23,504 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 271
-01:55:49,055 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-01:55:49,059 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-01:55:49,060 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-01:55:49,273 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 218
-02:04:41,712 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:04:41,716 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:04:41,717 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:04:41,932 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 220
-02:09:15,587 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:15,588 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:16,038 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:16,039 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:16,670 F: (FunctionGroup.java:308) : widgetSelected: e.item = null
-02:09:16,671 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Button {    Edit Function   }
-02:09:18,295 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:18,296 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:18,299 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:18,300 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:18,686 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:18,687 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:19,526 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:19,527 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:19,530 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:19,531 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:20,182 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:20,183 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:20,186 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:20,187 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:20,885 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:20,886 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:20,889 F: (FunctionGroup.java:308) : widgetSelected: e.item = TableItem {}
-02:09:20,890 F: (FunctionGroup.java:309) : widgetSelected: e.widget = Table {}
-02:09:27,804 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:09:27,808 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:09:27,809 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:09:28,019 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 215
-02:09:45,890 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:09:45,894 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:09:45,895 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:09:46,118 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 228
-02:09:48,569 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:09:48,572 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:09:48,573 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:09:48,768 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 199
-02:09:51,225 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:09:51,228 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:09:51,230 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:09:51,438 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 213
-02:10:04,032 F: (ErlParser.java:333) : unknown: {other,{{17,17,488},5},start,[{token,atom,17,488,5,start,u,u},{token,atom,18,494,3,rpc,u,u},{token,'(',18,497,1,u,u,u},{token,var,18,498,3,'Pid',u,u},{token,',',18,501,1,u,u,u},{token,var,18,503,7,'Request',u,u},{token,')',18,510,1,u,u,u},{token,'->',18,512,2,u,u,u},{token,var,19,516,3,'Pid',u,u},{token,'!',19,520,1,u,u,u},{token,'{',19,522,1,u,u,u},{token,atom,19,523,4,self,u,u},{token,'(',19,527,1,u,u,u},{token,')',19,528,1,u,u,u},{token,',',19,529,1,u,u,u},{token,var,19,531,7,'Request',u,u},{token,'}',19,538,1,u,u,u},{token,',',19,539,1,u,u,u},{token,receive,20,542,7,u,u,u},{token,'{',21,552,1,u,u,u},{token,var,21,553,3,'Pid',u,u},{token,',',21,556,1,u,u,u},{token,var,21,557,8,'Response',u,u},{token,'}',21,565,1,u,u,u},{token,'->',21,567,2,u,u,u},{token,atom,22,573,2,io,u,u},{token,':',22,575,1,u,u,u},{token,atom,22,576,6,format,u,u},{token,'(',22,582,1,u,u,u},{token,string,22,583,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',22,593,1,u,u,u},{token,'[',22,594,1,u,u,u},{token,atom,22,595,4,self,u,u},{token,'(',22,599,1,u,u,u},{token,')',22,600,1,u,u,u},{token,']',22,601,1,u,u,u},{token,')',22,602,1,u,u,u},{token,',',22,603,1,u,u,u},{token,var,23,608,8,'Response',u,u},{token,end,24,618,3,u,u,u},{token,dot,24,621,1,u,".",u}]}
-02:10:32,291 F: (ErlParser.java:333) : unknown: {other,{{19,19,536},4},area,[{token,atom,19,536,4,area,u,u},{token,atom,20,541,3,rpc,u,u},{token,'(',20,544,1,u,u,u},{token,var,20,545,3,'Pid',u,u},{token,',',20,548,1,u,u,u},{token,var,20,550,7,'Request',u,u},{token,')',20,557,1,u,u,u},{token,'->',20,559,2,u,u,u},{token,var,21,563,3,'Pid',u,u},{token,'!',21,567,1,u,u,u},{token,'{',21,569,1,u,u,u},{token,atom,21,570,4,self,u,u},{token,'(',21,574,1,u,u,u},{token,')',21,575,1,u,u,u},{token,',',21,576,1,u,u,u},{token,var,21,578,7,'Request',u,u},{token,'}',21,585,1,u,u,u},{token,',',21,586,1,u,u,u},{token,receive,22,589,7,u,u,u},{token,'{',23,599,1,u,u,u},{token,var,23,600,3,'Pid',u,u},{token,',',23,603,1,u,u,u},{token,var,23,604,8,'Response',u,u},{token,'}',23,612,1,u,u,u},{token,'->',23,614,2,u,u,u},{token,atom,24,620,2,io,u,u},{token,':',24,622,1,u,u,u},{token,atom,24,623,6,format,u,u},{token,'(',24,629,1,u,u,u},{token,string,24,630,10,"rpc:~p~n",""rpc:~p~n"",u},{token,',',24,640,1,u,u,u},{token,'[',24,641,1,u,u,u},{token,atom,24,642,4,self,u,u},{token,'(',24,646,1,u,u,u},{token,')',24,647,1,u,u,u},{token,']',24,648,1,u,u,u},{token,')',24,649,1,u,u,u},{token,',',24,650,1,u,u,u},{token,var,25,655,8,'Response',u,u},{token,end,26,665,3,u,u,u},{token,dot,26,668,1,u,".",u}]}
-02:13:37,033 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:13:37,037 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:13:37,038 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:13:37,244 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 210
-02:14:47,341 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:14:47,344 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:14:47,345 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:14:47,567 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 226
-02:23:06,257 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:23:06,261 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:23:06,262 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:23:06,471 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 214
-02:29:09,163 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:29:09,167 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:29:09,168 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:29:09,378 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 215
-02:30:00,597 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:30:00,601 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:30:00,602 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:30:00,810 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 213
-02:30:56,212 F: (ErlParser.java:333) : unknown: {other,{{11,11,268},2},ma,[{token,atom,11,268,2,ma,u,u}]}
-02:30:56,795 F: (ErlParser.java:333) : unknown: {other,{{11,11,268},3},max,[{token,atom,11,268,3,max,u,u}]}
-02:31:12,357 F: (AbstractErlContentAssistProcessor.java:305) : 310 results
-02:31:13,400 F: (AbstractErlContentAssistProcessor.java:305) : 44 results
-02:31:14,191 F: (AbstractErlContentAssistProcessor.java:305) : 7 results
-02:31:15,015 F: (AbstractErlContentAssistProcessor.java:305) : 7 results
-02:31:40,403 F: (AbstractErlContentAssistProcessor.java:305) : 55 results
-02:31:41,472 F: (AbstractErlContentAssistProcessor.java:305) : 8 results
-02:31:41,988 F: (AbstractErlContentAssistProcessor.java:305) : 3 results
-02:34:06,135 F: (AbstractErlContentAssistProcessor.java:305) : 82 results
-02:34:06,363 F: (AbstractErlContentAssistProcessor.java:305) : 9 results
-02:34:06,468 F: (AbstractErlContentAssistProcessor.java:305) : 3 results
-02:34:06,597 F: (AbstractErlContentAssistProcessor.java:305) : 1 results
-02:34:07,449 F: (AbstractErlContentAssistProcessor.java:305) : 1 results
-02:35:08,412 F: (AbstractErlContentAssistProcessor.java:305) : 55 results
-02:35:09,381 F: (AbstractErlContentAssistProcessor.java:305) : 8 results
-02:35:09,813 F: (AbstractErlContentAssistProcessor.java:305) : 3 results
-02:35:57,223 F: (ErlParser.java:333) : unknown: {other,{{24,24,706},4},wait,[{token,atom,24,706,4,wait,u,u}]}
-02:40:02,791 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:40:02,795 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:40:02,796 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:40:02,992 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 201
-02:41:43,096 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:41:43,100 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:41:43,101 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:41:43,309 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 213
-02:47:46,310 F: (InternalBuilder.java:72) : ###** Starting build auto of StudyErlangOTP
-02:47:46,314 F: (InternalBuilder.java:188) : >>> compiler options ::: [debug_info,nowarn_export_all,nowarn_export_vars,nowarn_shadow_vars,warn_unused_function,warn_deprecated_function,nowarn_obsolete_guard,nowarn_unused_import,warn_unused_vars,warn_unused_record]
-02:47:46,315 F: (InternalBuilder.java:194) : Will compile 1 resource(s)
-02:47:46,532 F: (InternalBuilder.java:110) : ###** Finished build of StudyErlangOTP took 222
-00:00:00,050 I: (ErlideUIPlugin.java:219) : *** Automatically cleaning caches ***
+22:54:01,699 I: (ErlangCore.java:70) : Starting CORE Thread[main,6,main]
+22:54:01,740 I: (ErlangCore.java:79) : *** starting Erlide v0.25.0.201402101644 (core=0.24.2.201402101644) *** (UTF-8) 
+22:54:01,772 I: (ErlangCore.java:86) : Started CORE
+22:54:04,182 F: (ErlangHostnameRetriever.java:40) : Test long hostname: null
+22:54:04,182 W: (ErlangHostnameRetriever.java:46) : Can't use null as long name
+22:54:05,946 F: (ErlangHostnameRetriever.java:40) : Test long hostname: IcLod-Y410P
+22:54:07,095 W: (ErlangHostnameRetriever.java:46) : Can't use IcLod-Y410P as long name
+22:54:07,773 F: (ErlangHostnameRetriever.java:40) : Test short hostname: IcLod-Y410P
+22:54:07,826 F: (HostnameUtils.java:73) : Detected:: IcLod-Y410P && null
+22:54:07,885 F: (BackendFactory.java:42) : Create ide backend
+22:54:07,895 F: (BackendFactory.java:74) : Create backend a19d9_IcLod_d06e0d_erlide
+22:54:08,264 F: (ErlRuntime.java:411) : Runtime a19d9_IcLod_d06e0d_erlide@IcLod-Y410P starting
+22:54:08,264 F: (ManagedErlRuntime.java:56) : START node :> [G:\tools\erl6.3/bin/erl, -sname, a19d9_IcLod_d06e0d_erlide@IcLod-Y410P, -setcookie, erlide] *** G:\ErlangTest\plugin
+22:54:08,493 F: (ErlRuntime.java:273) : using cookie 'erlide...'6 (info: 'erlide')
+22:54:08,514 F: (ErlRuntime.java:278) : a19d9_IcLod_d06e0d_erlide@IcLod-Y410P: waiting connection to peer...
+22:54:09,154 I: (ErlRuntime.java:346) : code server started
+22:54:09,156 F: (ErlRuntime.java:416) : Runtime a19d9_IcLod_d06e0d_erlide@IcLod-Y410P running
+22:54:09,526 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_8d07066@IcLod-Y410P'}
+22:54:09,526 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:54:09,593 F: (ModelActivator.java:24) : Started model api
+22:54:09,690 I: (ErlideUIPlugin.java:154) : Starting UI Thread[main,6,main]
+22:54:09,759 I: (ErlideUIPlugin.java:189) : Started UI
+22:54:27,776 F: (BackendFactory.java:66) : Create build backend 17
+22:54:27,778 F: (BackendFactory.java:74) : Create backend 17_a19d9_IcLod_d0bbc1
+22:54:27,781 F: (ManagedErlRuntime.java:56) : START node :> [G:\tools\erl6.3/bin/erl, -sname, 17_a19d9_IcLod_d0bbc1@IcLod-Y410P, -setcookie, erlide] *** G:\ErlangTest\plugin
+22:54:27,781 F: (ErlRuntime.java:411) : Runtime 17_a19d9_IcLod_d0bbc1@IcLod-Y410P starting
+22:54:28,049 F: (ErlRuntime.java:273) : using cookie 'erlide...'6 (info: 'erlide')
+22:54:28,051 F: (ErlRuntime.java:278) : 17_a19d9_IcLod_d0bbc1@IcLod-Y410P: waiting connection to peer...
+22:54:28,754 I: (ErlRuntime.java:346) : code server started
+22:54:28,756 F: (ErlRuntime.java:416) : Runtime 17_a19d9_IcLod_d0bbc1@IcLod-Y410P running
+22:54:29,014 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_8d0bcb8@IcLod-Y410P'}
+22:54:29,015 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+06:53:23,508 I: (ErlideUIPlugin.java:219) : *** Automatically cleaning caches ***
+06:59:24,947 F: (ErlangNodeLaunchShortcut.java:115) : ** Launch :: tr_sup.erl
+06:59:25,733 F: (BackendManager.java:116) : create execution backend StudyErlangOTP
+06:59:25,733 F: (BackendFactory.java:74) : Create backend StudyErlangOTP
+06:59:25,733 F: (ManagedErlRuntime.java:56) : START node :> [G:\tools\erl6.3/bin/erl, -sname, StudyErlangOTP@IcLod-Y410P, -setcookie, erlide] *** G:\tools\eclipse-erl-w64
+06:59:25,733 F: (ErlRuntime.java:411) : Runtime StudyErlangOTP@IcLod-Y410P starting
+06:59:26,170 F: (ErlRuntime.java:273) : using cookie 'erlide...'6 (info: 'erlide')
+06:59:26,170 F: (ErlRuntime.java:278) : StudyErlangOTP@IcLod-Y410P: waiting connection to peer...
+06:59:26,885 I: (ErlRuntime.java:346) : code server started
+06:59:26,886 F: (ErlRuntime.java:416) : Runtime StudyErlangOTP@IcLod-Y410P running
+06:59:27,167 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_a8cbd19@IcLod-Y410P'}
+06:59:27,167 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+06:59:27,302 F: (ErlangDebugTarget.java:98) : debug started #Pid<StudyErlangOTP@IcLod-Y410P.84.0>
+06:59:27,307 F: (ErlangDebugTarget.java:444) : interpret tr_app
+06:59:27,322 F: (ErlangDebugTarget.java:444) : interpret tr_server
+06:59:27,331 F: (ErlangDebugTarget.java:444) : interpret tr_sup
+06:59:27,339 F: (ErlangDebugTarget.java:444) : interpret area_server
+06:59:27,348 F: (ErlangDebugTarget.java:444) : interpret event_handler
+06:59:27,364 F: (ErlangDebugTarget.java:444) : interpret lib_primes
+06:59:27,372 F: (ErlangDebugTarget.java:444) : interpret motor_controller
+06:59:27,377 F: (ErlangDebugTarget.java:444) : interpret my_alarm_handler
+06:59:27,387 F: (ErlangDebugTarget.java:444) : interpret my_bank
+06:59:27,404 F: (ErlangDebugTarget.java:444) : interpret my_fac_server
+06:59:27,412 F: (ErlangDebugTarget.java:444) : interpret name_server
+06:59:27,420 F: (ErlangDebugTarget.java:444) : interpret prime_server
+06:59:27,428 F: (ErlangDebugTarget.java:444) : interpret sellaprime_supervisor
+06:59:27,434 F: (ErlangDebugTarget.java:444) : interpret server1
+06:59:27,450 F: (ErlangDebugTarget.java:444) : interpret server2
+06:59:27,459 F: (ErlangDebugTarget.java:444) : interpret server3
+06:59:27,468 F: (ErlangDebugTarget.java:444) : interpret server4
+06:59:27,472 F: (ErlangDebugTarget.java:444) : interpret server5
+06:59:27,484 F: (ErlangDebugTarget.java:444) : interpret kvs
+06:59:27,494 F: (ErlangDebugTarget.java:444) : interpret mod_name_server
+06:59:27,510 F: (ErlangDebugTarget.java:444) : interpret area_server0
+06:59:27,525 F: (ErlangDebugTarget.java:444) : interpret area_server1
+06:59:27,534 F: (ErlangDebugTarget.java:444) : interpret area_server_final
+06:59:27,545 F: (ErlangDebugTarget.java:444) : interpret clock
+06:59:27,553 F: (ErlangDebugTarget.java:444) : interpret dist_demo
+06:59:27,561 F: (ErlangDebugTarget.java:444) : interpret ets_test
+06:59:27,569 F: (ErlangDebugTarget.java:444) : interpret id3_v1
+06:59:27,578 F: (ErlangDebugTarget.java:444) : interpret lib_misc
+06:59:27,585 F: (ErlangDebugTarget.java:444) : interpret processes
+06:59:27,592 F: (ErlangDebugTarget.java:444) : interpret scavenge_urls
+06:59:27,597 F: (ErlangDebugTarget.java:444) : interpret socket_examples
+06:59:27,607 F: (ErlangDebugTarget.java:444) : interpret stimer
+06:59:27,623 F: (ErlangDebugTarget.java:444) : interpret test_12_09
+06:59:27,640 F: (ErlangDebugTarget.java:444) : interpret test_mnesia
+06:59:27,648 F: (ErlangDebugTarget.java:444) : interpret five
+06:59:27,658 F: (ErlangDebugTarget.java:444) : interpret friday
+06:59:27,667 F: (ErlangDebugTarget.java:444) : interpret hello
+06:59:27,674 F: (ErlangDebugTarget.java:444) : interpret mylists
+06:59:27,682 F: (ErlangDebugTarget.java:444) : interpret one
+06:59:27,704 F: (ErlConsoleManager.java:43) : console ADDED to org.erlide.backend.api.BackendData@4c65cb5f
+06:59:27,815 F: (ErlangLaunchDelegate.java:114) : Started erts: StudyErlangOTP >> StudyErlangOTP
+07:00:33,025 W: (ErlideDebug.java:380) : backend StudyErlangOTP@IcLod-Y410P down
+org.erlide.runtime.rpc.RpcException: backend StudyErlangOTP@IcLod-Y410P down
+	at org.erlide.runtime.internal.rpc.RpcSite.checkConnected(RpcSite.java:265)
+	at org.erlide.runtime.internal.rpc.RpcSite.cast(RpcSite.java:183)
+	at org.erlide.runtime.internal.rpc.RpcSite.cast(RpcSite.java:194)
+	at org.erlide.backend.debug.ErlideDebug.unloadDebuggerCode(ErlideDebug.java:378)
+	at org.erlide.backend.internal.Backend.unloadDebuggerCode(Backend.java:385)
+	at org.erlide.backend.internal.Backend.dispose(Backend.java:96)
+	at org.erlide.backend.internal.ExternalBackend.dispose(ExternalBackend.java:41)
+	at org.erlide.backend.internal.BackendManager.terminateBackendsForLaunch(BackendManager.java:429)
+	at org.erlide.backend.internal.BackendManagerLaunchListener.launchesTerminated(BackendManagerLaunchListener.java:41)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:313)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1028)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:401)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:571)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1132)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1166)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:430)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+07:00:33,478 W: (ErlideDebug.java:380) : backend StudyErlangOTP@IcLod-Y410P down
+org.erlide.runtime.rpc.RpcException: backend StudyErlangOTP@IcLod-Y410P down
+	at org.erlide.runtime.internal.rpc.RpcSite.checkConnected(RpcSite.java:265)
+	at org.erlide.runtime.internal.rpc.RpcSite.cast(RpcSite.java:183)
+	at org.erlide.runtime.internal.rpc.RpcSite.cast(RpcSite.java:194)
+	at org.erlide.backend.debug.ErlideDebug.unloadDebuggerCode(ErlideDebug.java:378)
+	at org.erlide.backend.internal.Backend.unloadDebuggerCode(Backend.java:385)
+	at org.erlide.backend.internal.Backend.dispose(Backend.java:96)
+	at org.erlide.backend.internal.ExternalBackend.dispose(ExternalBackend.java:41)
+	at org.erlide.backend.debug.model.ErlangDebugTarget.terminate(ErlangDebugTarget.java:178)
+	at org.erlide.ui.console.actions.ConsoleTerminateAction.terminate(ConsoleTerminateAction.java:86)
+	at org.erlide.ui.console.actions.ConsoleTerminateAction.run(ConsoleTerminateAction.java:69)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+07:00:33,494 W: (ErlideDebug.java:380) : backend StudyErlangOTP@IcLod-Y410P down
+org.erlide.runtime.rpc.RpcException: backend StudyErlangOTP@IcLod-Y410P down
+	at org.erlide.runtime.internal.rpc.RpcSite.checkConnected(RpcSite.java:265)
+	at org.erlide.runtime.internal.rpc.RpcSite.cast(RpcSite.java:183)
+	at org.erlide.runtime.internal.rpc.RpcSite.cast(RpcSite.java:194)
+	at org.erlide.backend.debug.ErlideDebug.unloadDebuggerCode(ErlideDebug.java:378)
+	at org.erlide.backend.internal.Backend.unloadDebuggerCode(Backend.java:385)
+	at org.erlide.backend.internal.Backend.dispose(Backend.java:96)
+	at org.erlide.backend.internal.ExternalBackend.dispose(ExternalBackend.java:41)
+	at org.erlide.ui.console.actions.ConsoleTerminateAction.run(ConsoleTerminateAction.java:75)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+07:00:33,551 W: (ErlRuntime.java:392) : Runtime StudyErlangOTP@IcLod-Y410P crashed, exit code: 1.
+07:00:33,551 S: (ErlRuntimeReporter.java:75) : Backend 'StudyErlangOTP@IcLod-Y410P' crashed with exit code 1.
+07:00:33,601 S: (ErlRuntimeReporter.java:78) : Last system status was:
+ Memory:
+         total: 13,065,184
+     processes:  4,813,584
+processes_used:  4,813,584
+        system:  8,251,600
+          atom:    202,481
+     atom_used:    190,353
+   binary:     63,104
+  code:  4,685,785
+ ets:    297,832
+ low:          0
+  maximum:          0
+----------
+Registered processes:
+[global_group, error_logger, dbg_mon, kernel_safe_sup, erlide_builder, erl_epmd, erlide_monitor, auth, erl_prim_loader, net_kernel, tr_sup, standard_error_sup, tr_server, rex, net_sup, inet_db, kernel_sup, global_name_server, code_server, init, file_server_2, user, application_controller, erlide_rex_manager, standard_error, dbg_iserver]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.84.0> ()
+     memory:    264,168
+  heap_size:      4,185
+ stack_size:          4
+ total_heap:     32,875
+   binary: []
+ stacktrace: [{dbg_mon,loop,1,[]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.31.0> ()
+     memory:    230,432
+  heap_size:     17,731
+ stack_size:         16
+ total_heap:     28,689
+   binary: [{57953664,7544,1}]
+ stacktrace: [{shell,get_command1,5,[{file,"shell.erl"},{line,302}]},{shell,server_loop,7,[{file,"shell.erl"},{line,229}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.76.0> ()
+     memory:    230,312
+  heap_size:     10,958
+ stack_size:        356
+ total_heap:     28,689
+   binary: []
+ stacktrace: [{erlide_monitor,'-all_processes_info/0-lc$^0/1-0-',1,[]},{erlide_monitor,'-all_processes_info/0-lc$^0/1-0-',1,[]},{erlide_monitor,all_processes_info,0,[]},{erlide_monitor,send_info,0,[]},{erlide_monitor,handle_info,2,[]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,593}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,659}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.25.0> ()
+     memory:    142,680
+  heap_size:      6,772
+ stack_size:          3
+ total_heap:     17,730
+   binary: [{57409712,22736,1},{57962240,1024,1},{138674352,13408,1},{57963296,1024,1},{57432784,1384,2},{57964352,1024,1},{57434208,1572,2},{57965408,1024,1},{57435824,4712,2},{57940128,1024,1}]
+ stacktrace: [{code_server,loop,1,[{file,"code_server.erl"},{line,155}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.128.0> ()
+     memory:    101,368
+  heap_size:      1,598
+ stack_size:         16
+ total_heap:     12,556
+   binary: []
+ stacktrace: [{shell,get_command1,5,[{file,"shell.erl"},{line,302}]},{shell,server_loop,7,[{file,"shell.erl"},{line,229}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.7.0> ()
+     memory:     93,464
+  heap_size:     10,958
+ stack_size:          7
+ total_heap:     11,568
+   binary: [{57432496,243,1}]
+ stacktrace: [{gen_server,loop,6,[{file,"gen_server.erl"},{line,360}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.3.0> ()
+     memory:     75,640
+  heap_size:      2,586
+ stack_size:          6
+ total_heap:      9,358
+   binary: [{57935856,106,1},{57432784,1384,2},{57961584,48,1},{57937904,106,1},{57434208,1572,2},{57938208,48,1},{57966464,112,1},{57435824,4712,2},{57966624,48,1}]
+ stacktrace: [{erl_prim_loader,loop,3,[{file,"erl_prim_loader.erl"},{line,313}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.12.0> ()
+     memory:     29,424
+  heap_size:      2,586
+ stack_size:          9
+ total_heap:      3,573
+   binary: []
+ stacktrace: [{gen_server,loop,6,[{file,"gen_server.erl"},{line,360}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.30.0> ()
+     memory:     26,600
+  heap_size:      1,598
+ stack_size:         22
+ total_heap:      3,196
+   binary: [{57934144,256,1}]
+ stacktrace: [{user,get_chars,8,[{file,"user.erl"},{line,612}]},{user,do_io_request,5,[{file,"user.erl"},{line,182}]},{user,server_loop,2,[{file,"user.erl"},{line,132}]},{user,catch_loop,3,[{file,"user.erl"},{line,99}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.24.0> ()
+     memory:     23,432
+  heap_size:      2,586
+ stack_size:          9
+ total_heap:      2,819
+   binary: [{57935424,48,1},{57934000,48,1},{57962112,48,1},{57961392,48,1},{57936128,48,1},{57935520,48,1},{57961248,48,1},{57935616,48,1},{57936016,48,1},{57938768,48,1},{57938864,48,1},{57936224,48,1},{57961488,48,1},{57961728,48,1},{57961968,48,1},{57938064,48,1},{57935712,48,1},{57961824,48,1}]
+ stacktrace: [{gen_server,loop,6,[{file,"gen_server.erl"},{line,360}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.11.0> ()
+     memory:     17,072
+  heap_size:      1,598
+ stack_size:          9
+ total_heap:      1,974
+   binary: []
+ stacktrace: [{gen_server,loop,6,[{file,"gen_server.erl"},{line,360}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.17.0> ()
+     memory:     16,752
+  heap_size:        987
+ stack_size:          9
+ total_heap:      1,974
+   binary: []
+ stacktrace: [{gen_server,loop,6,[{file,"gen_server.erl"},{line,360}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.15.0> ()
+     memory:     16,528
+  heap_size:        987
+ stack_size:          2
+ total_heap:      1,974
+   binary: []
+ stacktrace: [{global,loop_the_registrar,0,[{file,"global.erl"},{line,2187}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.127.0> ()
+     memory:      9,272
+  heap_size:        610
+ stack_size:         10
+ total_heap:        986
+   binary: []
+ stacktrace: [{erlide_shell,shell_loop,3,[]},{erlide_shell,shell_init,1,[]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.20.0> ()
+     memory:      8,944
+  heap_size:        376
+ stack_size:          9
+ total_heap:        986
+   binary: []
+ stacktrace: [{gen_server,loop,6,[{file,"gen_server.erl"},{line,360}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.6.0> ()
+     memory:      8,768
+  heap_size:        610
+ stack_size:          8
+ total_heap:        986
+   binary: []
+ stacktrace: [{gen_event,fetch_msg,5,[{file,"gen_event.erl"},{line,231}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.0.0> ()
+     memory:      8,704
+  heap_size:        610
+ stack_size:          2
+ total_heap:        986
+   binary: []
+ stacktrace: [{init,loop,1,[{file,"init.erl"},{line,379}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.37.0> ()
+     memory:      8,664
+  heap_size:        610
+ stack_size:         11
+ total_heap:        986
+   binary: []
+ stacktrace: [{dist_util,con_loop,9,[{file,"dist_util.erl"},{line,455}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.129.0> ()
+     memory:      8,624
+  heap_size:        610
+ stack_size:          7
+ total_heap:        986
+   binary: [{57966720,2,1}]
+ stacktrace: [{shell,eval_loop,3,[{file,"shell.erl"},{line,619}]}]
+----------
+Process #Pid<StudyErlangOTP@IcLod-Y410P.75.0> ()
+     memory:      8,624
+  heap_size:        610
+ stack_size:          3
+ total_heap:        986
+   binary: []
+ stacktrace: [{erlide_common_app,'-watch_eclipse/2-fun-0-',2,[]}]
+----------
+----------
+
+07:00:33,631 I: (ConsoleMessageReporter.java:13) : 4::: Backend 'StudyErlangOTP@IcLod-Y410P' crashed with exit code 1.
+
+This error is not recoverable, please restart your Eclipse instance.
+
+
+An error log has been created at C:\Users\IcLod/IcLod_20150610_070033.txt. Please report the problem so that we can fix it.
+http://www.assembla.com/spaces/erlide/support/tickets
+------
+07:00:47,067 F: (BackendManager.java:116) : create execution backend StudyErlangOTP
+07:00:47,068 F: (BackendFactory.java:74) : Create backend StudyErlangOTP
+07:00:47,070 F: (ManagedErlRuntime.java:56) : START node :> [G:\tools\erl6.3/bin/erl, -sname, StudyErlangOTP@IcLod-Y410P, -setcookie, erlide] *** G:\tools\eclipse-erl-w64
+07:00:47,070 F: (ErlRuntime.java:411) : Runtime StudyErlangOTP@IcLod-Y410P starting
+07:00:47,334 F: (ErlRuntime.java:273) : using cookie 'erlide...'6 (info: 'erlide')
+07:00:47,334 F: (ErlRuntime.java:278) : StudyErlangOTP@IcLod-Y410P: waiting connection to peer...
+07:00:48,036 I: (ErlRuntime.java:346) : code server started
+07:00:48,038 F: (ErlRuntime.java:416) : Runtime StudyErlangOTP@IcLod-Y410P running
+07:00:48,276 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_a8dfa4e@IcLod-Y410P'}
+07:00:48,276 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+07:00:48,347 F: (ErlangDebugTarget.java:98) : debug started #Pid<StudyErlangOTP@IcLod-Y410P.84.0>
+07:00:48,350 F: (ErlangDebugTarget.java:444) : interpret tr_app
+07:00:48,364 F: (ErlangDebugTarget.java:444) : interpret tr_server
+07:00:48,376 F: (ErlangDebugTarget.java:444) : interpret tr_sup
+07:00:48,391 F: (ErlangDebugTarget.java:444) : interpret area_server
+07:00:48,398 F: (ErlangDebugTarget.java:444) : interpret event_handler
+07:00:48,402 F: (ErlangDebugTarget.java:444) : interpret lib_primes
+07:00:48,412 F: (ErlangDebugTarget.java:444) : interpret motor_controller
+07:00:48,424 F: (ErlangDebugTarget.java:444) : interpret my_alarm_handler
+07:00:48,440 F: (ErlangDebugTarget.java:444) : interpret my_bank
+07:00:48,447 F: (ErlangDebugTarget.java:444) : interpret my_fac_server
+07:00:48,454 F: (ErlangDebugTarget.java:444) : interpret name_server
+07:00:48,461 F: (ErlangDebugTarget.java:444) : interpret prime_server
+07:00:48,467 F: (ErlangDebugTarget.java:444) : interpret sellaprime_supervisor
+07:00:48,473 F: (ErlangDebugTarget.java:444) : interpret server1
+07:00:48,480 F: (ErlangDebugTarget.java:444) : interpret server2
+07:00:48,486 F: (ErlangDebugTarget.java:444) : interpret server3
+07:00:48,494 F: (ErlangDebugTarget.java:444) : interpret server4
+07:00:48,501 F: (ErlangDebugTarget.java:444) : interpret server5
+07:00:48,508 F: (ErlangDebugTarget.java:444) : interpret kvs
+07:00:48,514 F: (ErlangDebugTarget.java:444) : interpret mod_name_server
+07:00:48,518 F: (ErlangDebugTarget.java:444) : interpret area_server0
+07:00:48,533 F: (ErlangDebugTarget.java:444) : interpret area_server1
+07:00:48,541 F: (ErlangDebugTarget.java:444) : interpret area_server_final
+07:00:48,544 F: (ErlangDebugTarget.java:444) : interpret clock
+07:00:48,559 F: (ErlangDebugTarget.java:444) : interpret dist_demo
+07:00:48,565 F: (ErlangDebugTarget.java:444) : interpret ets_test
+07:00:48,572 F: (ErlangDebugTarget.java:444) : interpret id3_v1
+07:00:48,579 F: (ErlangDebugTarget.java:444) : interpret lib_misc
+07:00:48,585 F: (ErlangDebugTarget.java:444) : interpret processes
+07:00:48,593 F: (ErlangDebugTarget.java:444) : interpret scavenge_urls
+07:00:48,599 F: (ErlangDebugTarget.java:444) : interpret socket_examples
+07:00:48,611 F: (ErlangDebugTarget.java:444) : interpret stimer
+07:00:48,623 F: (ErlangDebugTarget.java:444) : interpret test_12_09
+07:00:48,633 F: (ErlangDebugTarget.java:444) : interpret test_mnesia
+07:00:48,647 F: (ErlangDebugTarget.java:444) : interpret five
+07:00:48,659 F: (ErlangDebugTarget.java:444) : interpret friday
+07:00:48,672 F: (ErlangDebugTarget.java:444) : interpret hello
+07:00:48,682 F: (ErlangDebugTarget.java:444) : interpret mylists
+07:00:48,693 F: (ErlangDebugTarget.java:444) : interpret one
+07:00:48,717 F: (ErlConsoleManager.java:43) : console ADDED to org.erlide.backend.api.BackendData@2f92a13b
+07:00:48,731 F: (ErlangLaunchDelegate.java:114) : Started erts: StudyErlangOTP >> StudyErlangOTP
+07:01:23,102 W: (ErlideDebug.java:380) : backend StudyErlangOTP@IcLod-Y410P down
+org.erlide.runtime.rpc.RpcException: backend StudyErlangOTP@IcLod-Y410P down
+	at org.erlide.runtime.internal.rpc.RpcSite.checkConnected(RpcSite.java:265)
+	at org.erlide.runtime.internal.rpc.RpcSite.cast(RpcSite.java:183)
+	at org.erlide.runtime.internal.rpc.RpcSite.cast(RpcSite.java:194)
+	at org.erlide.backend.debug.ErlideDebug.unloadDebuggerCode(ErlideDebug.java:378)
+	at org.erlide.backend.internal.Backend.unloadDebuggerCode(Backend.java:385)
+	at org.erlide.backend.internal.Backend.dispose(Backend.java:96)
+	at org.erlide.backend.internal.ExternalBackend.dispose(ExternalBackend.java:41)
+	at org.erlide.backend.internal.BackendManager.terminateBackendsForLaunch(BackendManager.java:429)
+	at org.erlide.backend.internal.BackendManagerLaunchListener.launchesTerminated(BackendManagerLaunchListener.java:41)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:313)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1028)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:401)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:571)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1132)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1166)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:430)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+07:01:23,248 F: (ErlRuntime.java:384) : Runtime StudyErlangOTP@IcLod-Y410P terminated
+07:30:36,741 F: (ErlRuntime.java:384) : Runtime a19d9_IcLod_d06e0d_erlide@IcLod-Y410P terminated
+07:30:36,786 F: (ErlRuntime.java:384) : Runtime 17_a19d9_IcLod_d0bbc1@IcLod-Y410P terminated
